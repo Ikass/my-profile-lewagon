@@ -1,11 +1,11 @@
-.btn-hero {
+.btn-cta {
     background-color: #c03221;
     color: white;
     padding: 15px 20px;
     border-radius: 3px;
 }
 
-.btn-hero:hover {
+.btn-cta:hover {
     color: white;
     background-color: #2E5077;
 }
