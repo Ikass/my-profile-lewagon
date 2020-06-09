@@ -3,13 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* Import components */
+/* actually, let's use LINK instead of @import */
+/* becuase http://www.stevesouders.com/blog/2009/04/09/dont-use-import/ */
+/* need to LINK in the HTML file */
 
+/* 
 @import url("components/container.css");
 @import url("components/avatar.css");
 @import url("components/button.css");
 @import url("components/card.css");
 @import url("components/banner.css");
-
+*/
 
 /* Colors and fonts */
 
