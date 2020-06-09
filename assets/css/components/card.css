@@ -1,8 +1,15 @@
+/* Flexbox card container */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Card with white background */
 
 .card-white {
     background-color: white;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     border-radius: 5px;
     margin: 20px 0;
@@ -17,13 +24,15 @@
 /* Flexbox card */
 
 .card {
-    padding: 30px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     border-radius: 7px;
-    margin: 20px 0;
+    margin: 10px;
+    flex-basis: 240px;
+    flex-grow: 1;
 }
 
 .card:hover {
@@ -37,6 +46,5 @@
 
 .card h3 {
     flex-grow: 1;
-    font-size: 24px;
     padding-left: 20px;
 }
